@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SimpleLoginSystem {
+public class sistemloginsimpel {
     public static void main(String[] args) {
         // Menampilkan pilihan login
         try (Scanner scanner = new Scanner(System.in)) {
