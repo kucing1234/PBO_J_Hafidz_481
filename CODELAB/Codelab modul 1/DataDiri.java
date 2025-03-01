@@ -1,12 +1,10 @@
-import java.util.Scanner;
 import java.time.LocalDate;
+import java.util.Scanner;
 
 public class DataDiri {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-
-        try {
+        try (Scanner scanner = new Scanner(System.in)) {
 
             System.out.print("Masukkan Nama: ");
             String nama = scanner.nextLine();
@@ -42,9 +40,6 @@ public class DataDiri {
             System.out.println("Jenis Kelamin : " + jenisKelaminStr);
             System.out.println("Umur \t\t  : " + umur + " tahun");
 
-        } finally {
-
-            scanner.close();
         }
     }
 }
