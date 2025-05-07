@@ -1,1 +1,1 @@
-"# Nama Repo" 
+Repositori ini berisi materi pembelajaran konsep Object-Oriented Programming (OOP) dengan Java, terdiri dari modul codelab interaktif dan tugas praktik untuk memperdalam pemahaman. Mata Kuliah Pemrogramman Berorientasi Objek
